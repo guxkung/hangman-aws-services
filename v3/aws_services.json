@@ -1,0 +1,122 @@
+{
+    "EC2": {
+        "description": "Elastic compute service that provides resizable compute capacity in the cloud",
+        "category": "Compute",
+        "difficulty": "Easy",
+        "certification_notes": "Know instance types (t2, m5, c5, etc.), pricing models (on-demand, reserved, spot), and auto scaling capabilities. Understand placement groups and instance store vs EBS."
+    },
+    "S3": {
+        "description": "Object storage service that offers industry-leading scalability, data availability, security, and performance",
+        "category": "Storage",
+        "difficulty": "Easy",
+        "certification_notes": "Understand storage classes (Standard, IA, Glacier), lifecycle policies, versioning, and bucket policies. Know about encryption options and cross-region replication."
+    },
+    "LAMBDA": {
+        "description": "Serverless compute service that lets you run code without provisioning or managing servers",
+        "category": "Compute",
+        "difficulty": "Medium",
+        "certification_notes": "Focus on triggers, execution context, timeout limits (15 min max), and integration with other services. Know about layers and environment variables."
+    },
+    "DYNAMODB": {
+        "description": "Fully managed NoSQL database service that provides fast and predictable performance with seamless scalability",
+        "category": "Database",
+        "difficulty": "Medium",
+        "certification_notes": "Know about partition keys, sort keys, and read/write capacity units. Understand DAX, Global Tables, and the difference between eventually consistent and strongly consistent reads."
+    },
+    "RDS": {
+        "description": "Managed relational database service that makes it easy to set up, operate, and scale a relational database",
+        "category": "Database",
+        "difficulty": "Medium",
+        "certification_notes": "Understand multi-AZ deployments, read replicas, and backup options. Know supported database engines and their features."
+    },
+    "SNS": {
+        "description": "Fully managed messaging service for both application-to-application and application-to-person communication",
+        "category": "Application Integration",
+        "difficulty": "Easy",
+        "certification_notes": "Know about topics, subscriptions, and supported notification types (SMS, email, HTTP, SQS). Understand fan-out pattern with SNS and SQS."
+    },
+    "SQS": {
+        "description": "Fully managed message queuing service that enables you to decouple and scale microservices",
+        "category": "Application Integration",
+        "difficulty": "Medium",
+        "certification_notes": "Understand standard vs FIFO queues, visibility timeout, dead-letter queues, and long polling vs short polling."
+    },
+    "CLOUDFRONT": {
+        "description": "Content delivery network service that securely delivers data, videos, applications, and APIs globally",
+        "category": "Networking",
+        "difficulty": "Medium",
+        "certification_notes": "Know about distributions, origins, behaviors, and cache invalidation. Understand edge locations vs regional edge caches."
+    },
+    "IAM": {
+        "description": "Web service that helps you securely control access to AWS resources",
+        "category": "Security",
+        "difficulty": "Easy",
+        "certification_notes": "Understand users, groups, roles, and policies. Know the difference between identity-based and resource-based policies. Understand the principle of least privilege."
+    },
+    "CLOUDWATCH": {
+        "description": "Monitoring and observability service that provides data and insights to monitor applications",
+        "category": "Management",
+        "difficulty": "Medium",
+        "certification_notes": "Know about metrics, alarms, logs, and events. Understand the difference between basic and detailed monitoring."
+    },
+    "ROUTE53": {
+        "description": "Highly available and scalable cloud Domain Name System web service",
+        "category": "Networking",
+        "difficulty": "Medium",
+        "certification_notes": "Understand routing policies (simple, weighted, latency-based, failover, geolocation). Know about health checks and DNS record types."
+    },
+    "GLACIER": {
+        "description": "Secure, durable, and extremely low-cost Amazon S3 storage class for data archiving and long-term backup",
+        "category": "Storage",
+        "difficulty": "Medium",
+        "certification_notes": "Know retrieval options (expedited, standard, bulk) and their costs. Understand Vault Lock policies and lifecycle rules."
+    },
+    "VPC": {
+        "description": "Virtual network dedicated to your AWS account that is logically isolated from other virtual networks in the AWS Cloud",
+        "category": "Networking",
+        "difficulty": "Hard",
+        "certification_notes": "Understand subnets, route tables, internet gateways, NAT gateways, security groups, and NACLs. Know VPC peering, VPC endpoints, and Transit Gateway."
+    },
+    "ECS": {
+        "description": "Highly scalable, fast container management service that makes it easy to run, stop, and manage containers",
+        "category": "Compute",
+        "difficulty": "Hard",
+        "certification_notes": "Know about task definitions, services, clusters, and launch types (EC2 vs Fargate). Understand service auto scaling and task placement strategies."
+    },
+    "CLOUDFORMATION": {
+        "description": "Service that gives developers and businesses an easy way to create a collection of related AWS resources",
+        "category": "Management",
+        "difficulty": "Hard",
+        "certification_notes": "Understand templates, stacks, and stack sets. Know about intrinsic functions, pseudo parameters, and drift detection."
+    },
+    "ATHENA": {
+        "description": "Interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL",
+        "category": "Analytics",
+        "difficulty": "Medium",
+        "certification_notes": "Know that it's serverless and priced per query. Understand integration with Glue Data Catalog and supported file formats."
+    },
+    "KINESIS": {
+        "description": "Platform for streaming data on AWS, offering powerful services to make it easy to load and analyze streaming data",
+        "category": "Analytics",
+        "difficulty": "Hard",
+        "certification_notes": "Know the difference between Kinesis Data Streams, Firehose, Analytics, and Video Streams. Understand shards, producers, and consumers."
+    },
+    "ELASTICBEANSTALK": {
+        "description": "Easy-to-use service for deploying and scaling web applications and services",
+        "category": "Compute",
+        "difficulty": "Medium",
+        "certification_notes": "Understand environments, application versions, and configuration. Know supported platforms and deployment options."
+    },
+    "COGNITO": {
+        "description": "User identity and data synchronization service that helps you securely manage and synchronize app data",
+        "category": "Security",
+        "difficulty": "Hard",
+        "certification_notes": "Know the difference between User Pools and Identity Pools. Understand authentication flow and integration with social identity providers."
+    },
+    "APIGATEWAY": {
+        "description": "Fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs",
+        "category": "Networking",
+        "difficulty": "Medium",
+        "certification_notes": "Understand REST APIs vs HTTP APIs vs WebSocket APIs. Know about stages, deployments, and API keys. Understand throttling and caching."
+    }
+}
