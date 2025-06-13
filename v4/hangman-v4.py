@@ -582,9 +582,6 @@ def view_statistics(game):
     print("\n===== GAME STATISTICS =====\n")
     print(game.show_statistics())
     input("\nPress Enter to continue...")
- 
-if __name__ == "__main__":
-    main()
 
 def update_aws_services_database(game):
     """Update AWS services database with latest information"""
@@ -644,3 +641,5 @@ def update_aws_services_database(game):
         print(f"\nError: {str(e)}")
         input("\nPress Enter to continue...")
 
+if __name__ == "__main__":
+    main()
